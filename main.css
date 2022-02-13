@@ -1,0 +1,25 @@
+.buttons {
+  width: 5vw;
+  height: 50vh;
+  background-color: crimson;
+  grid-area: button;
+  transform: translateY(17vw);
+}
+
+.resources {
+  width: 5vw;
+  height: 50vh;
+  background-color: rgb(20, 33, 220);
+  grid-area: resources;
+  transform: translateY(17vw);
+}
+
+.game {
+  grid-area: game;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10vw;
+  grid-template-areas: "button game resources";
+}
